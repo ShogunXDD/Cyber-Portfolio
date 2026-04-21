@@ -18,6 +18,7 @@ Started by inspecting loaded kernel modules:
 ```bash
 lsmod
 ```
+![](1.webp)
 
 ### Observation
 
@@ -39,6 +40,7 @@ To gather more details about the suspicious module:
 ```bash
 modinfo spatch
 ```
+![](2.webp)
 
 This provides metadata such as:
 - File location  
@@ -64,6 +66,8 @@ Then inspect the binary using `strings`:
 ```bash
 strings /lib/modules/6.8.0-1016-aws/kernel/drivers/misc/spatch.ko
 ```
+
+![](3.webp)
 
 ### Result
 
