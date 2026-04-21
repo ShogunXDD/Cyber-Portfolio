@@ -6,8 +6,9 @@
 
 - Platform: TryHackMe  
 - Difficulty: Easy  
-- Objective: Retrieve all three ingredients  
-
+- Objective: Retrieve all three ingredients
+ 
+![Objective](assets/1.webp)
 ---
 
 ## Reconnaissance
