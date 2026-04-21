@@ -33,6 +33,8 @@ Accessing the web server showed a static page with no visible functionality.
 
 Inspecting the page source revealed a username hidden inside an HTML comment.
 
+![](assets/2.webp)
+
 ---
 
 ## Directory Enumeration
@@ -67,11 +69,15 @@ Navigated to `/login.php` and used:
 
 Login was successful.
 
+![](assets/4.webp)
+
 ---
 
 ## Command Execution
 
 After authentication, a command execution panel was available.
+
+![](assets/5.webp)
 
 Testing with a simple command:
 
