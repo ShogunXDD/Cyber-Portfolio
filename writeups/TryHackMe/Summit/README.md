@@ -12,6 +12,8 @@ This room simulates a blue team scenario where we detect and block an adversary 
   cbda8ae000aa9cbe7c8b982bae006c2a
 - Add hash in Manage Hashes to block the file
 
+  ![](assets/1.webp)
+
 **Flag:**
 THM{f3cbf08151a11a6a331db9c6cf5f4fe4}
 
@@ -30,6 +32,8 @@ Create firewall rule:
 - Destination: 154.35.10.113
 - Action: Deny
 
+![](assets/2.webp)
+
 **Flag:**
 THM{2ff48a3421a938b388418be273f4806d}
 
@@ -45,6 +49,8 @@ THM{2ff48a3421a938b388418be273f4806d}
 Create DNS filter rule:
 - Domain: emudyn.bresonicz.info
 - Action: Deny
+
+![](assets/3.webp)
 
 **Flag:**
 THM{4eca9e2f61a19ecd5df34c788e7dce16}
@@ -108,8 +114,12 @@ Sigma Rule:
 - File: %temp%\exfiltr8.log
 - ATT&CK: Discovery (TA0007)
 
+![](assets/4.webp)
+
 **Final Flag:**
 THM{c8951b2ad24bbcbac60c16cf2c83d92c}
+
+![](assets/5.webp)
 
 ---
 
